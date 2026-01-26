@@ -27,3 +27,8 @@ A segurança na nuvem é uma parceria. Dependendo do modelo, a responsabilidade 
 Durante a criação da infraestrutura, aprendi na prática sobre:
 * **Políticas de Região:** Algumas regiões (como West US) podem estar bloqueadas para assinaturas de estudante. A solução foi migrar para **East US**.
 * **Gerenciamento de Custos:** A importância de excluir os Recursos e Grupos de Recursos ao finalizar o lab para não consumir os créditos.
+
+  
+<img width="352" height="527" alt="Captura de tela 2026-01-26 205015" src="https://github.com/user-attachments/assets/0f70cc07-0f6b-4e9d-9865-228eed9553fb" />
+<img width="653" height="467" alt="Captura de tela 2026-01-26 205003" src="https://github.com/user-attachments/assets/f41c7b6b-a89f-408c-bee2-511173e1d727" />
+<img width="595" height="418" alt="Captura de tela 2026-01-26 205010" src="https://github.com/user-attachments/assets/89869251-7b54-49f7-8201-c94d7d9e1607" />
