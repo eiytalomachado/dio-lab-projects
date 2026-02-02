@@ -1,0 +1,35 @@
+# ☁️ Resumo dos Fundamentos do Azure
+
+Este repositório contém o resumo dos aprendizados práticos sobre a infraestrutura global e gerenciamento do Microsoft Azure, desenvolvido durante o bootcamp da [DIO](https://www.dio.me/).
+
+## 📋 Descrição do Projeto
+O objetivo deste desafio foi explorar e documentar a hierarquia de recursos e as estratégias de redundância do Azure, focando em como garantir alta disponibilidade e organização corporativa.
+
+## 🛠️ Conceitos Aprendidos e Documentados
+
+### 1. Organização de Recursos (Hierarquia)
+Entendi como o Azure estrutura o gerenciamento de nuvem, do nível mais alto ao mais granular:
+* **Grupos de Gerenciamento (Management Groups):** O nível de governança que aplica políticas e regras para múltiplas assinaturas (Ex: Regras de Compliance para todo o Banco).
+* **Assinaturas (Subscriptions):** A unidade de faturamento e acesso (Ex: Assinatura de Desenvolvimento vs. Produção).
+* **Grupos de Recursos (Resource Groups):** Contêineres lógicos para agrupar recursos de uma mesma solução/projeto.
+* **Recursos (Resources):** As instâncias reais dos serviços (VMs, Bancos de Dados, VNETs).
+
+### 2. Disponibilidade e Redundância
+Aprendi as diferenças cruciais entre os níveis de proteção contra desastres:
+* **Zonas de Disponibilidade (Availability Zones):** Proteção contra falhas em um datacenter específico (ex: incêndio). Garante redundância dentro da mesma região.
+* **Pares de Regiões (Region Pairs):** Proteção contra desastres naturais amplos. Garante que os dados sejam replicados para uma região geográfica distante (ex: Brasil Sul ↔ EUA Central), respeitando a latência e atualização sequencial.
+* **Regiões Soberanas:** Ambientes isolados para conformidade estrita (ex: Azure Government para EUA e Azure China para operação via 21Vianet).
+
+### 3. Prática no Portal
+Durante o laboratório, executei:
+- [x] Criação de uma Máquina Virtual.
+- [x] Configuração de Redes Virtuais (VNETs).
+- [x] Provisionamento de um Banco de Dados SQL.
+- [x] Organização via Grupos de Recursos.
+
+## 🔗 Links Úteis
+* [Documentação Oficial do Azure](https://docs.microsoft.com/pt-br/azure/)
+* [Calculadora de Preços do Azure](https://azure.microsoft.com/pt-br/pricing/calculator/)
+
+## 📝 Autor
+[Seu Nome] - Estudante de Tecnologia e Cloud Computing.
